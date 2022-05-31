@@ -7,6 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication226", "WebApp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{AF35F7CA-8886-4887-BE10-9BAA543BB4A7}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		.github\workflows\build-65c0f.yaml = .github\workflows\build-65c0f.yaml
 	EndProjectSection
 EndProject
