@@ -63,4 +63,4 @@ jobs:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
         
     - name: Azure Deploy
-      run: dotnet publish -p:PublishProfile=timvmtest2
+      run: dotnet publish -p:PublishProfile=timvmtest2 -p:Password=${{ secrets.DEPLOY_PWD }} -p:UserName=${{ secrets.DEPLOY_UNAME }}
