@@ -1,5 +1,6 @@
 ﻿@page
 @model IndexModel
+@using System.Runtime.InteropServices
 @{
     ViewData["Title"] = "Home page";
 }
@@ -7,4 +8,5 @@
 <div class="text-center">
     <h1 class="display-4">Welcome to .NET!!</h1>
     <p>Deployed via github actions</p>
+    <p>Running on @RuntimeInformation.OSDescription</p>
 </div>
